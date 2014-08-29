@@ -14,7 +14,6 @@
 		01E4D1D319A92DDE0066570C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E4D1D219A92DDE0066570C /* main.m */; };
 		01E4D1D719A92DDE0066570C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E4D1D619A92DDE0066570C /* AppDelegate.m */; };
 		01E4D1DA19A92DDE0066570C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E4D1D819A92DDE0066570C /* Main.storyboard */; };
-		01E4D1DD19A92DDE0066570C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E4D1DC19A92DDE0066570C /* FirstViewController.m */; };
 		01E4D1E019A92DDE0066570C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E4D1DF19A92DDE0066570C /* SecondViewController.m */; };
 		01E4D1E219A92DDE0066570C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E4D1E119A92DDE0066570C /* Images.xcassets */; };
 		01E4D1E919A92DDE0066570C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E4D1E819A92DDE0066570C /* XCTest.framework */; };
@@ -34,6 +33,8 @@
 		01E4D21919A93F3B0066570C /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E4D21819A93F3B0066570C /* libz.1.1.3.dylib */; };
 		01E4D21B19A93FE60066570C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E4D21A19A93FE60066570C /* Bolts.framework */; };
 		01E4D21D19A940050066570C /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E4D21C19A940050066570C /* ParseFacebookUtils.framework */; };
+		01E4D22319ADA9650066570C /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E4D22219ADA9650066570C /* ListTableViewController.m */; };
+		01E4D22719ADAF7F0066570C /* TruckListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E4D22619ADAF7F0066570C /* TruckListTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +59,6 @@
 		01E4D1D519A92DDE0066570C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01E4D1D619A92DDE0066570C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		01E4D1D919A92DDE0066570C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		01E4D1DB19A92DDE0066570C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		01E4D1DC19A92DDE0066570C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		01E4D1DE19A92DDE0066570C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		01E4D1DF19A92DDE0066570C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		01E4D1E119A92DDE0066570C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -83,6 +82,10 @@
 		01E4D21A19A93FE60066570C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "parse-library-1.2.21/Bolts.framework"; sourceTree = "<group>"; };
 		01E4D21C19A940050066570C /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "parse-library-1.2.21/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
 		01E4D21E19A940140066570C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		01E4D22119ADA9650066570C /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		01E4D22219ADA9650066570C /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		01E4D22519ADAF7F0066570C /* TruckListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TruckListTableViewCell.h; sourceTree = "<group>"; };
+		01E4D22619ADAF7F0066570C /* TruckListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TruckListTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,11 +172,11 @@
 		01E4D1CC19A92DDE0066570C /* MunchTruck */ = {
 			isa = PBXGroup;
 			children = (
+				01E4D22419ADAF4D0066570C /* Views */,
+				01E4D22019ADA9070066570C /* ViewControllers */,
 				01E4D1D519A92DDE0066570C /* AppDelegate.h */,
 				01E4D1D619A92DDE0066570C /* AppDelegate.m */,
 				01E4D1D819A92DDE0066570C /* Main.storyboard */,
-				01E4D1DB19A92DDE0066570C /* FirstViewController.h */,
-				01E4D1DC19A92DDE0066570C /* FirstViewController.m */,
 				01E4D1DE19A92DDE0066570C /* SecondViewController.h */,
 				01E4D1DF19A92DDE0066570C /* SecondViewController.m */,
 				01E4D1E119A92DDE0066570C /* Images.xcassets */,
@@ -209,6 +212,24 @@
 				01E4D1F119A92DDE0066570C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01E4D22019ADA9070066570C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				01E4D22119ADA9650066570C /* ListTableViewController.h */,
+				01E4D22219ADA9650066570C /* ListTableViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		01E4D22419ADAF4D0066570C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01E4D22519ADAF7F0066570C /* TruckListTableViewCell.h */,
+				01E4D22619ADAF7F0066570C /* TruckListTableViewCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,10 +329,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E4D22719ADAF7F0066570C /* TruckListTableViewCell.m in Sources */,
 				01E4D1E019A92DDE0066570C /* SecondViewController.m in Sources */,
 				01E4D1D719A92DDE0066570C /* AppDelegate.m in Sources */,
-				01E4D1DD19A92DDE0066570C /* FirstViewController.m in Sources */,
 				01E4D1D319A92DDE0066570C /* main.m in Sources */,
+				01E4D22319ADA9650066570C /* ListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
