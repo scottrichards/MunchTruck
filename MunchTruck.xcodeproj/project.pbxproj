@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01E3AEB719B048A2005B9F16 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E3AEB619B048A2005B9F16 /* MapViewController.m */; };
+		01E3AEB919B05265005B9F16 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E3AEB819B05265005B9F16 /* MapKit.framework */; };
 		01E4D1C719A92DDE0066570C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E4D1C619A92DDE0066570C /* Foundation.framework */; };
 		01E4D1C919A92DDE0066570C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E4D1C819A92DDE0066570C /* CoreGraphics.framework */; };
 		01E4D1CB19A92DDE0066570C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E4D1CA19A92DDE0066570C /* UIKit.framework */; };
@@ -14,7 +16,6 @@
 		01E4D1D319A92DDE0066570C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E4D1D219A92DDE0066570C /* main.m */; };
 		01E4D1D719A92DDE0066570C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E4D1D619A92DDE0066570C /* AppDelegate.m */; };
 		01E4D1DA19A92DDE0066570C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E4D1D819A92DDE0066570C /* Main.storyboard */; };
-		01E4D1E019A92DDE0066570C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E4D1DF19A92DDE0066570C /* SecondViewController.m */; };
 		01E4D1E219A92DDE0066570C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E4D1E119A92DDE0066570C /* Images.xcassets */; };
 		01E4D1E919A92DDE0066570C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E4D1E819A92DDE0066570C /* XCTest.framework */; };
 		01E4D1EA19A92DDE0066570C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E4D1C619A92DDE0066570C /* Foundation.framework */; };
@@ -48,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E3AEB519B048A2005B9F16 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		01E3AEB619B048A2005B9F16 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		01E3AEB819B05265005B9F16 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		01E4D1C319A92DDE0066570C /* MunchTruck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MunchTruck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E4D1C619A92DDE0066570C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		01E4D1C819A92DDE0066570C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,8 +63,6 @@
 		01E4D1D519A92DDE0066570C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01E4D1D619A92DDE0066570C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		01E4D1D919A92DDE0066570C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		01E4D1DE19A92DDE0066570C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		01E4D1DF19A92DDE0066570C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		01E4D1E119A92DDE0066570C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		01E4D1E719A92DDE0066570C /* MunchTruckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MunchTruckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E4D1E819A92DDE0066570C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -100,6 +102,7 @@
 				01E4D1C919A92DDE0066570C /* CoreGraphics.framework in Frameworks */,
 				01E4D20B19A93A790066570C /* CoreLocation.framework in Frameworks */,
 				01E4D1C719A92DDE0066570C /* Foundation.framework in Frameworks */,
+				01E3AEB919B05265005B9F16 /* MapKit.framework in Frameworks */,
 				01E4D20D19A93A790066570C /* MobileCoreServices.framework in Frameworks */,
 				01E4D21519A93D070066570C /* Parse.framework in Frameworks */,
 				01E4D21D19A940050066570C /* ParseFacebookUtils.framework in Frameworks */,
@@ -146,6 +149,7 @@
 		01E4D1C519A92DDE0066570C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				01E3AEB819B05265005B9F16 /* MapKit.framework */,
 				01E4D21E19A940140066570C /* Social.framework */,
 				01E4D21C19A940050066570C /* ParseFacebookUtils.framework */,
 				01E4D21A19A93FE60066570C /* Bolts.framework */,
@@ -177,8 +181,6 @@
 				01E4D1D519A92DDE0066570C /* AppDelegate.h */,
 				01E4D1D619A92DDE0066570C /* AppDelegate.m */,
 				01E4D1D819A92DDE0066570C /* Main.storyboard */,
-				01E4D1DE19A92DDE0066570C /* SecondViewController.h */,
-				01E4D1DF19A92DDE0066570C /* SecondViewController.m */,
 				01E4D1E119A92DDE0066570C /* Images.xcassets */,
 				01E4D1CD19A92DDE0066570C /* Supporting Files */,
 			);
@@ -219,6 +221,8 @@
 			children = (
 				01E4D22119ADA9650066570C /* ListTableViewController.h */,
 				01E4D22219ADA9650066570C /* ListTableViewController.m */,
+				01E3AEB519B048A2005B9F16 /* MapViewController.h */,
+				01E3AEB619B048A2005B9F16 /* MapViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -330,8 +334,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E4D22719ADAF7F0066570C /* TruckListTableViewCell.m in Sources */,
-				01E4D1E019A92DDE0066570C /* SecondViewController.m in Sources */,
 				01E4D1D719A92DDE0066570C /* AppDelegate.m in Sources */,
+				01E3AEB719B048A2005B9F16 /* MapViewController.m in Sources */,
 				01E4D1D319A92DDE0066570C /* main.m in Sources */,
 				01E4D22319ADA9650066570C /* ListTableViewController.m in Sources */,
 			);
