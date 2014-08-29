@@ -86,8 +86,6 @@
     // Configure the cell
     PFFile *logoFile = object[@"Logo"];
     cell.Name.text = truckName;
-//    UIImage *placeHolderImage = [UIImage imageNamed:@"GenericFoodTruck.png"];
- //   cell.LogoImage.image = placeHolderImage;
     if (logoFile != nil) {
         cell.LogoImage.file = logoFile;
         [cell.LogoImage loadInBackground];
