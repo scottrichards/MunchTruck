@@ -16,21 +16,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="IIk-S2-y3a">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IIk-S2-y3a">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="QUy-BD-bpt" id="3c0-O8-kXi"/>
+                                </connections>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="map" id="Z7h-1E-pvt"/>
+                    <navigationItem key="navigationItem" title="MunchTruck" id="h8w-1X-EQB"/>
                     <connections>
                         <outlet property="mapView" destination="IIk-S2-y3a" id="1bW-ke-Zm0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1179" y="498"/>
+            <point key="canvasLocation" x="1192" y="529"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Vex-rW-GRa">
@@ -44,7 +47,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="q3v-6N-Q6f" kind="relationship" relationship="viewControllers" id="SUk-Ux-ee1"/>
-                        <segue destination="QUy-BD-bpt" kind="relationship" relationship="viewControllers" id="M8t-EP-wfW"/>
+                        <segue destination="APf-Ai-3mQ" kind="relationship" relationship="viewControllers" id="M8t-EP-wfW"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FNP-y4-bzi" sceneMemberID="firstResponder"/>
@@ -70,7 +73,7 @@
             </objects>
             <point key="canvasLocation" x="643" y="-151"/>
         </scene>
-        <!--List Table View Controller-->
+        <!--List Table View Controller - MunchTruck-->
         <scene sceneID="NrW-ZU-Q3K">
             <objects>
                 <tableViewController id="NoE-BO-avu" customClass="ListTableViewController" sceneMemberID="viewController">
@@ -110,11 +113,30 @@
                             <outlet property="delegate" destination="NoE-BO-avu" id="hXX-WG-np0"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="swu-QO-4M5"/>
+                    <navigationItem key="navigationItem" title="MunchTruck" id="swu-QO-4M5"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KJh-a1-caV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1192" y="-151"/>
+        </scene>
+        <!--Navigation Controller - Map-->
+        <scene sceneID="oov-yv-1jX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="APf-Ai-3mQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" image="map" id="Z7h-1E-pvt"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HzP-Zz-GDm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="QUy-BD-bpt" kind="relationship" relationship="rootViewController" id="0yC-dX-VTo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LAl-6W-y37" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="643" y="529"/>
         </scene>
     </scenes>
     <resources>
